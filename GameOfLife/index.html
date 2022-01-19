@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
+
+	</head>
+	
+	<body onload="start()">
+		
+		<div id = "Conteiner">
+		
+			<div id="GameOfLife">
+			
+			</div>
+			
+			<div id="Bar">
+			
+				<div class="cafe">
+					Options </br>
+					
+					<div style="width:100%; text-align:left;">
+						<label>
+							Start model: <input type="checkbox" id="Life"> </br>
+						</label>
+					</div>
+					
+					<div style="width:100%; text-align:left;">
+						<label>
+							Parametr D: <input type="text" id="D" value="23"> </br>
+						</label>
+					</div>
+					
+					<div style="width:100%; text-align:left;">
+						<label>
+							Parametr L: <input type="text" id="L" value="3"> </br>
+						</label>
+					</div>
+				
+				</div>
+				
+				<div class="cafe">
+					Area Info </br>
+					
+					<div style="width:100%; text-align:left;">
+						<label>
+							Generation: <span id="Generation">0</span> </br>
+						</label>
+					</div>
+					
+					<div style="width:100%; text-align:left;">
+						<label>
+							Space: <input type="number" style="width:50px;" id="x" value="200"> <input type="number" style="width:50px;" id="y" value="200"> </br>
+						</label>
+					</div>
+					
+					<div class="button" onclick="changeArea()">
+						Change Area
+					</div>
+					
+				</div>
+				
+				<div class="cafe">
+					Camera Info </br>
+					
+					<div style="width:100%; text-align:left;">
+						<label>
+							Position: <span id="Px">0</span>X<span id="Py">0</span> </br>
+						</label>
+					</div>
+					
+					<div style="width:100%; text-align:left;">
+						<label>
+							Fov: <input type="number" id="Fov" value="200"> </br>
+						</label>
+					</div>
+					
+					<div style="width:100%; text-align:left;">
+						<label>
+							Step: <input type="number" id="Step" value="1"> </br>
+						</label>
+					</div>
+					
+					<div class="button" onclick="changeCamera()">
+						Change Camera
+					</div>
+					
+				</div>
+				
+			</div>
+			
+			<div style="clear:both"></div>
+			
+		</div>
+		
+		<script src="script.js"></script>
+	
+	</body>
+	
+</html>

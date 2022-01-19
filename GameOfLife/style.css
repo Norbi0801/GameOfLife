@@ -1,0 +1,72 @@
+body{
+	background-color:#02023d;
+	font-family: 'Dongle', sans-serif;
+	text-align:center;
+}
+
+#Conteiner{
+	margin-left:auto;
+	margin-right:auto;
+	width:1200px;
+}
+
+#GameOfLife{
+	background-color:black;
+	width:600px;
+	height:700px;
+	padding: 20px;
+	color:white;
+	font-size:40px;
+	float:left;
+}
+
+#Bar{
+	float:left;
+	width:440px;
+	margin-left:10px;
+}
+
+.cafe{
+	text-align:center;
+	color:white;
+	font-size:40px;
+	background-color:black;
+	width:400px;
+	padding: 10px;
+	margin-bottom:10px;
+}
+
+.offC{
+	float:left;
+	background-color:#111111;
+}
+
+.offC:hover{
+	float:left;
+	background-color:#555555;
+}
+
+.onC{
+	float:left;
+	background-color:#FFFFFF;
+}
+
+.onC:hover{
+	float:left;
+	background-color:#777777;
+}
+
+.button{
+	background-color:#111111;
+	padding:5px;
+}
+
+.button:hover{
+	background-color:#222222;
+	padding:5px;
+}
+
+.button:active{
+	background-color:#444444;
+	padding:5px;
+}
