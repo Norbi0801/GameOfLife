@@ -12,14 +12,14 @@
 	
 	<body onload="start()">
 		
-		<div id = "Conteiner">
+		<div id="Container">
 		
 			<div id="GameOfLife">
-			
+				
 			</div>
 			
 			<div id="Bar">
-			
+				
 				<div class="cafe">
 					Options </br>
 					
@@ -40,9 +40,8 @@
 							Parametr L: <input type="text" id="L" value="3"> </br>
 						</label>
 					</div>
-				
 				</div>
-				
+					
 				<div class="cafe" hidden>
 					Area Info </br>
 					
@@ -57,11 +56,11 @@
 							Space: <input type="number" style="width:50px;" id="x" value="200"> <input type="number" style="width:50px;" id="y" value="200"> </br>
 						</label>
 					</div>
-					
+						
 					<input type="button" onclick="changeArea()" value="Change Area">
-					
+						
 				</div>
-				
+					
 				<div class="cafe" hidden>
 					Camera Info </br>
 					
@@ -76,23 +75,21 @@
 							Fov: <input type="number" id="Fov" value="200"> </br>
 						</label>
 					</div>
-					
+						
 					<div style="width:100%; text-align:left;">
 						<label>
 							Step: <input type="number" id="Step" value="1"> </br>
 						</label>
 					</div>
-					
+						
 					<input type="button" onclick="changeCamera()" value="Change Camera">
-					
+						
 				</div>
-				
 			</div>
-			
-			<div style="clear:both"></div>
-			
+		
 		</div>
 		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script src="log.js"></script>
 		<script src="global.js"></script>
 		<script src="script.js"></script>

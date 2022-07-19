@@ -19,7 +19,7 @@ window.addEventListener("keydown", function(e) {
 		y = -1*Area.StepMovement;
 		k = true;
 	}
-	if(Camera.Position.x+x>0 && Camera.Position.y+y>0 &&Camera.Position.x+x+Camera.Range<=Area.Space.x && Camera.Position.y+y+Camera.Range<=Area.Space.y && k ){
+	if(Camera.Position.x+x>0 && Camera.Position.y+y>0 &&Camera.Position.x+x+Camera.Range.x<=Area.Space.x && Camera.Position.y+y+Camera.Range.y<=Area.Space.y && k ){
 		Camera.Position.x += x;
 		Camera.Position.y += y;
 		draw();
